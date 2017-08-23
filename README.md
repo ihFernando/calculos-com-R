@@ -66,3 +66,62 @@ Ficando com:
 
 ### Observações
 Dados tem sujeiras, limpar os dados faz com que o trabalho com deles seja mais exato.
+
+## Comandos R
+
+?+comando = mostra manual de como usar o comando
+open+nome arquivo = abre arquivo
+
+### Atribuindo lista a variável: 
+
+lista <- c(numeros da lista)
+
+### Comando: hist(lista)
+
+Gera um histograma de uma lista
+
+### Comando: Summary 
+
+Retorna as informações sobre a distribuição de números.
+summary(lista)
+
+Min. - 1st Qu. - Median - Mean - 3rd Qu. - Max.
+
+### Comando: Boxplot
+
+Retorna dados em gráfico
+
+boxplot(numeros)
+
+### Comando: Png
+
+Converte um gráfico em imagem no formato png
+
+png(file="caminha do arquivo/nome.png", width=500, height=500)
+
+### Comando: dev.off()
+
+Conclui a tarefa de boxplot
+
+### Comando: var(lista)
+
+Retorna a variância de uma distribuição
+
+### Comando: sqrt(lista)
+
+Calcula a raiz quadrada de um numero
+
+### Comando: sd(lista)
+
+Calcula o desvio padrão de uma distribuição
+
+### Comando: read.csv(file="arquivo.csv")
+
+Lê um arquivo do tipo **csv** para poder trabalhar com ele
+
+### Comando: cor()
+
+Calcula a correlação entre dois números
+
+cor(a, b, method="pearson" ou method="spearman")
+
